@@ -1,0 +1,24 @@
+name: demo buy smart
+request:
+  url: /api/smartbid/app/buy/post
+  method: POST
+  data:
+    amount: $amount
+    prj_id: $prj_id01
+  headers:
+      Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+      User-agent: ltz-app-android_HONOR_BKL-AL20_9_2160*1080_ltest__3.20.0(72)
+      cookie: $cookie
+
+setup_hooks:
+    - ${ssdb_clear()}
+teardown_hooks:
+    - ${ssdb_clear()}
+
+validate:
+  -   eq:
+      - status_code
+      - 200
+  -   eq:
+      - content.code
+      - 1

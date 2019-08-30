@@ -1,0 +1,23 @@
+name: demo register_only_with_mobile
+variables:
+    status_code: 200
+    mobile: '17300013254'
+    password: '111111111'
+    _encrypt_code: ''
+    key: ''
+
+
+base_url: "http://dev.lantouzi.com"
+
+request:
+    method: POST
+    url: /api/uc/register_only_with_mobile
+    headers:
+        Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+    data:
+        _encrypt_code: $_encrypt_code
+        mobile: ${jiami($key,$mobile)}
+        password: ${jiami($key,$password)}
+
+validate:
+    - eq: ["status_code", $status_code]

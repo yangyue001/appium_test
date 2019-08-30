@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c423e774-6cee-4689-ac9c-082e321a3858" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>testcase</find>
+      <find>testMethod()</find>
+      <find>except KeyboardInterrupt</find>
+      <find>testMethodP</find>
+      <find>__call__(</find>
+      <find>defaultTestLoader</find>
+      <find>test</find>
+      <find>threadID</find>
+      <find>run</find>
+      <find>content</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/py_function/thread_test.py" />
+        <option value="$PROJECT_DIR$/py_function/threading_test_up.py" />
+        <option value="$PROJECT_DIR$/py_function/threading_queue.py" />
+        <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/py_function/pytest_test.py" />
+        <option value="$PROJECT_DIR$/api/demo_regester.yml" />
+        <option value="$PROJECT_DIR$/py_function/get_vcode.py" />
+        <option value="$PROJECT_DIR$/py_function/jiami.py" />
+        <option value="$PROJECT_DIR$/py_function/use_jiami.py" />
+        <option value="$PROJECT_DIR$/reports/1566272838.html" />
+        <option value="$PROJECT_DIR$/testcases/demo_register.yml" />
+        <option value="$PROJECT_DIR$/api/demo_register_only_mobile.yml" />
+        <option value="$PROJECT_DIR$/api/demo_reset_password.yml" />
+        <option value="$PROJECT_DIR$/api/demo_reset_paw_send.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_reset_password.yml" />
+        <option value="$PROJECT_DIR$/api/demo_register_check_code.yml" />
+        <option value="$PROJECT_DIR$/api/demo_register_send_code.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_register_check_code.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_register_send_code.yml" />
+        <option value="$PROJECT_DIR$/py_function/upload_test.py" />
+        <option value="$PROJECT_DIR$/testcases/demo_register_real.yml" />
+        <option value="$PROJECT_DIR$/api/get_cookie.py" />
+        <option value="$PROJECT_DIR$/api/demo_login.yml" />
+        <option value="$PROJECT_DIR$/api/demo_get_key.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_lofff.yml" />
+        <option value="$PROJECT_DIR$/api/demo_change_mobile_num.yml" />
+        <option value="$PROJECT_DIR$/api/demo_upload.yml" />
+        <option value="$PROJECT_DIR$/api/demo_change_mobile_send_code.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_case_smbuy.yml" />
+        <option value="$PROJECT_DIR$/py_function/ssdb_do.py" />
+        <option value="$PROJECT_DIR$/api/demo_buysmart.yml" />
+        <option value="$PROJECT_DIR$/testsuites/demo_testsuite.yml" />
+        <option value="$PROJECT_DIR$/testcases/demo_case_login.yml" />
+        <option value="$PROJECT_DIR$/py_function/getcookie.py" />
+        <option value="$PROJECT_DIR$/py_function/get_cookie.py" />
+        <option value="$PROJECT_DIR$/debugtalk.py" />
+        <option value="$PROJECT_DIR$/testcases/demo_change_mobile_num.yml" />
+        <option value="$PROJECT_DIR$/py_function/bibao.py" />
+        <option value="$PROJECT_DIR$/py_function/zhuangshiqi.py" />
+        <option value="$PROJECT_DIR$/py_function/zhuangshiqi01.py" />
+        <option value="$PROJECT_DIR$/py_function/duoxiancheng.py" />
+        <option value="$PROJECT_DIR$/py_function/thread_test02.py" />
+        <option value="$PROJECT_DIR$/py_function/consumer.py" />
+        <option value="$PROJECT_DIR$/py_function/customer.py" />
+        <option value="$PROJECT_DIR$/py_function/threading_test.py" />
+        <option value="$PROJECT_DIR$/py_function/con_cus.py" />
+        <option value="$PROJECT_DIR$/py_function/正则.py" />
+        <option value="$PROJECT_DIR$/py_function/990.py" />
+        <option value="$PROJECT_DIR$/reports/1566372970.html" />
+        <option value="$PROJECT_DIR$/py_function/thread_test01.py" />
+        <option value="$PROJECT_DIR$/py_function/allure_iii.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="21" />
+    <option name="y" value="39" />
+    <option name="width" value="1225" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="demo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/PycharmProjects/httprunnertest/demo" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py_function" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for py_function.some_test">
+    <configuration name="990" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_function/990.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="con_cus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_function/con_cus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unittest_99" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py_function/unittest_99.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for py_function.some_test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;py_function.some_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for py_function.some_test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;py_function.some_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in some_test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/py_function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/py_function/some_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.990" />
+      <item itemvalue="Python.con_cus" />
+      <item itemvalue="Python.unittest_99" />
+      <item itemvalue="Python tests.pytest for py_function.some_test" />
+      <item itemvalue="Python tests.pytest in some_test.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for py_function.some_test" />
+        <item itemvalue="Python tests.pytest in some_test.py" />
+        <item itemvalue="Python tests.pytest for py_function.some_test" />
+        <item itemvalue="Python.990" />
+        <item itemvalue="Python.con_cus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c423e774-6cee-4689-ac9c-082e321a3858" name="Default Changelist" comment="" />
+      <created>1565077796951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565077796951</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.14 at 20h 20m 29s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_pytest_test_Tei - 2019.08.14 at 20h 20m 43s.xml">
+      <configuration name="pytest for pytest_test.Tei" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.15 at 18h 01m 16s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.15 at 18h 08m 31s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.15 at 18h 30m 13s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.15 at 18h 30m 43s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_pytest_test_py - 2019.08.15 at 18h 32m 42s.xml">
+      <configuration name="pytest in pytest_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_allure_iii_Test_allure_test_al - 2019.08.30 at 15h 47m 21s.xml">
+      <configuration name="pytest for allure_iii.Test_allure.test_al" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_allure_iii_py - 2019.08.30 at 16h 38m 32s.xml">
+      <configuration name="pytest in allure_iii.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_allure_iii_test_case_02 - 2019.08.30 at 16h 39m 12s.xml">
+      <configuration name="pytest for allure_iii.test_case_02" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="21" y="39" width="1225" height="772" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22259136" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32674772" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4310618" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5032051" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33529413" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32840723" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/__main__.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/main.py</url>
+          <line>100</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/reports/1566373691.html" />
+    <entry file="file://$PROJECT_DIR$/api/demo_reset_paw_send.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_change_mobile_send_code.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/1566373977.html" />
+    <entry file="file://$PROJECT_DIR$/api/demo_reset_password.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_register_send_code.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_register_only_mobile.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_register_check_code.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reports/1566374506.html" />
+    <entry file="file://$PROJECT_DIR$/testcases/demo_lofff.yml" />
+    <entry file="file://$PROJECT_DIR$/reports/1566377118.html" />
+    <entry file="file://$PROJECT_DIR$/api/demo_buysmart.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_change_mobile_num.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_function/ssdb_do.py" />
+    <entry file="file://$PROJECT_DIR$/reports/1566474344.html" />
+    <entry file="file://$PROJECT_DIR$/testcases/demo_reset_password.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_upload.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo_case_login.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo_case_smbuy.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_function/get_cookie.py" />
+    <entry file="file://$PROJECT_DIR$/testcases/demo_change_mobile_num.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo_register_check_code.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo_register_real.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/demo_testsuite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_get_key.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/demo_register_send_code.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debugtalk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_function/getcookie.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/get_vcode.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/macaca/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/macaca/heytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/macaca/locator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/macaca/command.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2538" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/macaca/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3880" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_function/bibao.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/zhuangshiqi.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/customer.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="738" column="6" selection-start-line="738" selection-start-column="6" selection-end-line="738" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py_function/zhuangshiqi01.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/duoxiancheng.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/990.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/thread_test.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/thread_test02.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/con_cus.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/正则.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/threading_test.py" />
+    <entry file="file://$PROJECT_DIR$/reports/1566372970.html" />
+    <entry file="file://$PROJECT_DIR$/py_function/thread_test01.py" />
+    <entry file="file://$PROJECT_DIR$/py_function/some_test.py" />
+    <entry file="file://$PROJECT_DIR$/allure-results/bafedad7-913c-4b3a-914e-f9bae3eed71b-testsuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/demo_login.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

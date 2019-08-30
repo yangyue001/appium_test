@@ -1,0 +1,37 @@
+config:
+  name: "demo register send code "
+  base_url: "http://dev.lantouzi.com"
+  variables:
+    mobile: '17300013310'
+
+  output:
+    - field_value
+    - public_key
+
+teststeps:
+  - name: demo get send code
+    testcase: testcases/demo_register_send_code.yml
+    variables:
+      mobile: $mobile
+
+
+
+  - name: demo get check key
+    api: api/demo_register_check_code.yml
+    variables:
+      mobile: $mobile
+      vcode: ${get_vcode($mobile)}
+
+
+  - name: demo get_key
+    api: api/demo_get_key.yml
+
+
+
+  - name: demo register_only_with_mobile
+    api: api/demo_register_only_mobile.yml
+    variables:
+      mobile: $mobile
+      password: '11111111'
+      _encrypt_code: $field_value
+      key: $public_key

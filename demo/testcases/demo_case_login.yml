@@ -1,0 +1,17 @@
+config:
+    name: "demo login"
+    variables:
+#        device_sn: "ABC"
+        name01: ${ENV(USERNAME)}
+        password: ${ENV(PASSWORD)}
+        key: safe_act|17300013254|login_name
+    base_url: "http://dev.lantouzi.com"
+
+teststeps:
+-
+    name: demo login01
+    api: api/demo_login.yml
+
+
+    validate:
+        - eq: ["json.code", 1]

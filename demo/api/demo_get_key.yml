@@ -1,0 +1,23 @@
+name: demo get_key
+variables:
+    status_code: 200
+    cookie: ''
+
+base_url: "http://dev.lantouzi.com"
+
+
+extract:
+    - field_value: json.data.encrypt.field_value
+    - public_key: json.data.encrypt.public_key
+
+
+request:
+    method: GET
+    url: /api/uc/get_key
+    headers:
+      Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+      Cookie: $cookie
+
+validate:
+    - eq: ["status_code", $status_code]
+

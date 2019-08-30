@@ -1,0 +1,23 @@
+config:
+  name: "demo register send code "
+  base_url: "http://dev.lantouzi.com"
+  variables:
+    mobile: '17300013309'
+    _encrypt_code: ''
+    vcode: ''
+
+teststeps:
+-
+  name: demo register send code
+  testcase: testcases/demo_register_send_code.yml
+  variables:
+    mobile: $mobile
+
+
+
+-
+  name: demo register check code
+  api: api/demo_register_check_code.yml
+  variables:
+    mobile: $mobile
+    vcode: ${get_vcode($mobile)}

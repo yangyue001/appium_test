@@ -1,0 +1,19 @@
+name: demo get change mobile code
+variables:
+    status_code: 200
+    mobile: '17300023344'
+    cookie: ''
+
+base_url: "http://dev.lantouzi.com"
+
+request:
+    method: GET
+    url: /api/uc/safe/change_mobile_send_code_realname_wap
+    params:
+      mobile: $mobile
+    headers:
+      Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+      Cookie: $cookie
+validate:
+    - eq: ["status_code", $status_code]
+

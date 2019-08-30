@@ -1,0 +1,12 @@
+config:
+  name: "demo register send code "
+  base_url: "http://dev.lantouzi.com"
+  variables:
+    mobile: '17300013308'
+
+teststeps:
+-
+  name: demo register check code
+  api: api/demo_register_send_code.yml
+  variables:
+    mobile: $mobile

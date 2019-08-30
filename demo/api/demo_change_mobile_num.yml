@@ -1,0 +1,29 @@
+name: demo post change mobile
+variables:
+    status_code: 200
+    mobile: '17300013244'
+    id_card_hand_img: ''
+    id_card_behind_img: ''
+    id_card_front_img: ''
+    cookie: ''
+
+base_url: "http://dev.lantouzi.com"
+
+request:
+    method: POST
+    url: /api/user/change_mobile_verify_name
+    data:
+      new_mobile: $mobile
+      apply_reason: '1234567890'
+      vcode: ${get_vcode($mobile)}
+      id_card_hand_img: $id_card_hand_img
+      id_card_behind_img: $id_card_behind_img
+      id_card_front_img: $id_card_front_img
+
+
+
+    headers:
+      Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+      Cookie: $cookie
+validate:
+    - eq: ["status_code", $status_code]

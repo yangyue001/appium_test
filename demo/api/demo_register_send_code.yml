@@ -1,0 +1,24 @@
+name: regester_send_code
+variables:
+  mobile: '17300013308'
+  status_code: 200
+base_url: "http://dev.lantouzi.com"
+
+
+request:
+  method: POST
+  url: /api/uc/register_send_mobile_code
+  headers:
+    User-agent: ltz-app-android_xiaomi_Redmi 6_8.1.0_1344*720_ltest__3.20.1(73)
+    Cookie: LTZ_S=deleted; DWJUC_S=deleted
+    Accept-Encoding: gzip
+    Content-Type: application/x-www-form-urlencoded
+    Referer: http://dev.lantouzi.com/api/
+    Connection: close
+  data:
+    mobile: $mobile
+    verify_type: 0
+
+
+validate:
+    - eq: ["status_code", $status_code]

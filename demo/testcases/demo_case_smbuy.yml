@@ -1,0 +1,21 @@
+config:
+  name: "demo buysm case"
+  base_url: "http://dev.lantouzi.com"
+
+teststeps:
+-
+    name: demo login01
+    testcase: testcases/demo_case_login.yml
+    output:
+      - cookies_DWJUC_S
+      - cookies_LTZ_S
+
+-
+  name: demo buysmart
+
+
+  variables:
+    amount: "1000.0"
+    prj_id01: ltz5d1b2be1886fd715
+    cookie: ${get_cookies($cookies_LTZ_S,$cookies.DWJUC_S)}
+  api: api/demo_buysmart.yml

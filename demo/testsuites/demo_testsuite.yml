@@ -1,0 +1,23 @@
+
+config:
+    name: "register and  change mobile"
+#    variables:
+#        device_sn: "XYZ"
+    base_url: "http://dev.lantouzi.com"
+
+testcases:
+-
+    name: register
+    testcase: testcases/demo_register_real.yml
+
+-
+    name: change mobile
+    testcase: testcases/demo_change_mobile_num.yml
+
+#    variables:
+#        device_sn: $device_sn
+#-
+#    name: call demo_testcase with data 2
+#    testcase: path/to/demo_case_login.yml
+#    variables:
+#        device_sn: $device_sn

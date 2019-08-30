@@ -1,0 +1,22 @@
+name: regester_check_code
+variables:
+  mobile: '17300013308'
+  vcode: '99999'
+  status_code: 200
+base_url: "http://dev.lantouzi.com"
+
+
+request:
+  method: POST
+  url: /api/uc/register_check_mobile_code
+  headers:
+    Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+    User-agent: ltz-app-android_xiaomi_Redmi 6_8.1.0_1344*720_ltest__3.20.1(73)
+  data:
+    mobile: $mobile
+    vcode: $vcode
+
+
+
+validate:
+    - eq: ["status_code", $status_code]

@@ -1,0 +1,27 @@
+name: demo upload
+variables:
+    status_code: 200
+    name: 'img_1566291412859.jpeg'
+    files: '/Users/yangyue/Documents/bx.png'
+    cookie: ''
+
+base_url: "http://dev.lantouzi.com"
+output:
+  - img_key
+
+extract:
+  - img_key: json.data.key
+
+request:
+    method: POST
+    url: /api/user/upload
+    headers:
+#      Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryTmOy8e7N7BYBagJe
+      Cookie: $cookie
+    files:
+      images: [$name,$files,'image/jpeg']
+
+
+validate:
+    - eq: ["status_code", $status_code]
+

@@ -1,0 +1,51 @@
+config:
+  name: "demo change mobile num"
+  base_url: "http://dev.lantouzi.com"
+  variables:
+    mobile: '17300013244'
+#    cookie: ${get_cookies($cookies_LTZ_S,$cookies_DWJUC_S)}
+  setup_hooks:
+    - ${ssdb_clear($mobile)}
+  teardown_hooks:
+    - ${ssdb_clear($mobile)}
+  output:
+    - cookies_DWJUC_S
+    - cookies_LTZ_S
+    - img_key
+
+base_url: "http://dev.lantouzi.com"
+
+request:
+    method: POST
+    url: /api/user/change_mobile_verify_name
+
+teststeps:
+-
+    name: login
+    api: api/demo_login.yml
+
+-
+    name: upload images
+    api: api/demo_upload.yml
+    variables:
+      cookie: ${get_cookies($cookies_LTZ_S,$cookies_DWJUC_S)}
+
+-
+    name: change mobile send code
+    api: api/demo_change_mobile_send_code.yml
+    variables:
+      mobile: $mobile
+      cookie: ${get_cookies($cookies_LTZ_S,$cookies_DWJUC_S)}
+-
+    name: change mobile num
+    api: api/demo_change_mobile_num.yml
+    variables:
+      mobile: $mobile
+      id_card_hand_img: $img_key
+      id_card_behind_img: $img_key
+      id_card_front_img: $img_key
+      cookie: ${get_cookies($cookies_LTZ_S,$cookies_DWJUC_S)}
+
+
+
+

@@ -1,0 +1,22 @@
+name: demo login
+variables:
+    status_code: 200
+    name01: 17300013254
+    password: 11111111
+
+extract:
+    - cookies_DWJUC_S: cookies.DWJUC_S
+    - cookies_LTZ_S: cookies.LTZ_S
+
+request:
+    method: POST
+    url: /api/uc/login
+    headers:
+        Content-Type: "application/x-www-form-urlencoded; charset=UTF-8"
+    data:
+        name: $name01
+        password: $password
+
+
+validate:
+    - eq: ["status_code", $status_code]
